@@ -1,1 +1,4 @@
-# image_slider
+# boilerplate
+
+
+# Webpack Boilerplate to start a new project
