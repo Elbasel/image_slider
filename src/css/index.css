@@ -176,11 +176,18 @@ img {
     transform: rotate(210deg) scale(1.5);
 }
 
-/* .right-img-div {
+/* ==================================================================== */
+
+.img-div {
+    transition: transform 1s, top 1s, left 1s;
+}
+
+.right-img-div {
     background-color: yellow;
     left: 80%;
     top: 50%;
     transform: rotate(20deg);
+    /* background-image: url('../assets/airplane.jpg'); */
 }
 
 .left-img-div {
@@ -189,6 +196,7 @@ img {
     left: -30%;
     top: 50%;
     transform: rotate(-20deg);
+    /* background-image: url('../assets/city.jpg'); */
 }
 
 .center-img-div {
@@ -196,6 +204,7 @@ img {
     top: 60px;
     left: 342px;
     transform: rotate(0);
+    /* background-image: url('../assets/desolate_forest.webp'); */
 }
 
 .meter {
@@ -240,4 +249,4 @@ img {
         transform: translateX(0) translateY(0) rotate(-20deg);
         opacity: 1;
     }
-} */
+}
